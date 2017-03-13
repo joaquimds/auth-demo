@@ -1,5 +1,5 @@
-const db = require('../../db')
-const authHelper = require('../../helpers/auth')
+const db = require('../../../db')
+const authHelper = require('../../../helpers/auth')
 const notFoundHandler = require('../handlers/notFound')
 
 const logPrefix = '[Register handler] '

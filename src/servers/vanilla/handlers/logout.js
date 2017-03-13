@@ -1,4 +1,4 @@
-const db = require('../../db')
+const db = require('../../../db')
 
 const logPrefix = '[Logout handler] '
 // the logoutHandler clears the cookie and the token in the database

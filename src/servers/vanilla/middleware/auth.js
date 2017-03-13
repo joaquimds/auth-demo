@@ -1,4 +1,4 @@
-const db = require('../../db')
+const db = require('../../../db')
 
 const logPrefix = '[Auth middleware] '
 // get the token from the cookie, find the user with this token, and set this on the request

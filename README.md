@@ -8,7 +8,7 @@ Protected routes are implemented using cookies + middleware.
 
 This is written using the `express` framework, which is a lightweight and very popular server framework.
 
-All files specific to the `express` implementation are in the `src/express` folder.
+All files specific to the `express` implementation are in the `src/servers/express` folder.
 
 Start with `npm run express`.
 
@@ -16,7 +16,7 @@ Start with `npm run express`.
 
 This is written without a framework. As such, middleware for the following had to be written:
 
-All files specific to this implementation are in the `src/vanilla` folder.
+All files specific to this implementation are in the `src/servers/vanilla` folder.
 
 - Request body parsing
 - Returning redirect responses

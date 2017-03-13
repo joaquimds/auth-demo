@@ -4,8 +4,8 @@
   "main": "vanilla/index.js",
   "license": "MIT",
   "scripts": {
-    "vanilla": "node src/vanilla",
-    "express": "node src/express"
+    "vanilla": "node src/servers/vanilla",
+    "express": "node src/servers/express"
   },
   "dependencies": {
     "body-parser": "^1.17.1",

@@ -1,7 +1,7 @@
 const router = require('express').Router()
 
-const db = require('../db')
-const authHelper = require('../helpers/auth')
+const db = require('../../db')
+const authHelper = require('../../helpers/auth')
 
 // index route
 router.get('/', (req, res) => {

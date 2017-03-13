@@ -3,7 +3,7 @@ const path = require('path')
 
 // read the views into strings and save in an object
 // i.e. views = { index: '<html>...</html>', login: '...' }
-const viewDir = path.join(__dirname, '..', '..', 'views')
+const viewDir = path.join(__dirname, '..', '..', '..', 'views')
 const viewFiles = fs.readdirSync(viewDir)
 const views = {}
 viewFiles.forEach(file => {
