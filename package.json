@@ -1,0 +1,16 @@
+{
+  "name": "auth-demo",
+  "version": "1.0.0",
+  "main": "vanilla/index.js",
+  "license": "MIT",
+  "scripts": {
+    "vanilla": "node src/vanilla",
+    "express": "node src/express"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "mustache-express": "^1.2.4"
+  }
+}
