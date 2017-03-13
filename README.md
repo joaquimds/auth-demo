@@ -14,9 +14,9 @@ Start with `npm run express`.
 
 ## Complex implementation
 
-This is written without a framework. As such, middleware for the following had to be written:
-
 All files specific to this implementation are in the `src/servers/vanilla` folder.
+
+This is written without a framework. As such, middleware for the following had to be written:
 
 - Request body parsing
 - Returning redirect responses
