@@ -4,6 +4,8 @@ A basic implementation of how register, login, logout and protected routes are i
 
 Protected routes are implemented using cookies + middleware.
 
+Install dependencies with `npm install` or `yarn install`
+
 ## Simple implementation
 
 This is written using the `express` framework, which is a lightweight and very popular server framework.
