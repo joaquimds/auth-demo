@@ -11,7 +11,7 @@ const routes = require('./routes')
 const app = express()
 app.engine('html', mustacheExpress()) // set up the 'html' engine
 app.set('view engine', 'html') // use the 'html' engine when rendering views
-app.set('views', path.resolve(__dirname, '../views'))
+app.set('views', path.resolve(__dirname, '..', '..', 'views'))
 
 // request body parsing middleware (e.g. for forms)
 app.use(bodyParser.urlencoded({ extended: false }))
